@@ -15,7 +15,7 @@
 	
 	<modules>
 		<module>springmvc-springsession-jdbc-demo</module>
-		
-    </modules>
+		<module>springboot-springsession-jdbc-demo</module>
+	</modules>
 	
 </project>
