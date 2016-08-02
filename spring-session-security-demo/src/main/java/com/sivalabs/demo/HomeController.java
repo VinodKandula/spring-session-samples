@@ -19,6 +19,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class HomeController
 {
+	
 	private static final AtomicInteger UserId = new AtomicInteger(0);
 	
 	@RequestMapping("/")
@@ -32,8 +33,7 @@ public class HomeController
 	{
 		String attributeName = req.getParameter("attributeName");
 		String attributeValue = req.getParameter("attributeValue");
-		req.getSession().setAttribute(attributeName, attributeValue);
-		
+		req.getSession().setAttribute(attributeName, attributeValue);		
 		return "redirect:/";
 	}
 	
