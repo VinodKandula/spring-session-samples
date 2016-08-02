@@ -16,6 +16,7 @@
 	<modules>
 		<module>springmvc-springsession-jdbc-demo</module>
 		<module>springboot-springsession-jdbc-demo</module>
+		<module>spring-session-multipleusers-demo</module>
 	</modules>
 	
 </project>
