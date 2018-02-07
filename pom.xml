@@ -4,7 +4,7 @@
 		xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
 						http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.sivalabs</groupId>
+	<groupId>in.sivalabs</groupId>
 	<artifactId>spring-session-samples</artifactId>
 	<packaging>pom</packaging>
 	<version>1.0-SNAPSHOT</version>
@@ -14,10 +14,8 @@
 	</properties>
 	
 	<modules>
-		<module>springmvc-springsession-jdbc-demo</module>
-		<module>springboot-springsession-jdbc-demo</module>
-		<module>spring-session-multipleusers-demo</module>
-		<module>spring-session-security-demo</module>
+		<module>springboot-spring-session-jdbc-demo</module>
+        <module>springboot-spring-session-redis-demo</module>
 	</modules>
 	
 </project>
